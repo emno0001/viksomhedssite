@@ -12,4 +12,70 @@ img {
   padding: 0;
 }
 
+.box{
+  padding: 25px;
+}
 
+h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+h2{
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main{
+  background-color: #FFEDDF;
+}
+
+
+@media (min-width: 1024px){
+  .grid_1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  p {
+  font-size: 1.5rem;
+}
+}
+
+/* Knappen */
+.hover-knap {
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #A05435; 
+  border: 3px solid #833f25;
+  color: white;
+  border-radius: 17px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  
+}
+
+/* Hover-effekt */
+.hover-knap:hover {
+  background-color: #C59273; 
+  transform: scale(1.1);
+}

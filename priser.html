@@ -5,31 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/priser.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=M+PLUS+Rounded+1c&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=M+PLUS+Rounded+1c&family=Quicksand:wght@300..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+
+    <header>
+        <a href="forside.html"><img src="img/forside/logo.png" alt="logo" class="logo"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="om.html">Om</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="priser.html">Priser</a></li>
+                <li><a href="galleri.html">Galleri</a></li>
+    
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
  
 <main>
-    <div>
 
-   
     <h1>Priser</h1>
-    <div>
+    <div class="grid_1-1-1">
+
+    <div class="box">
         <img src="img/dameklip.webp" alt="dameklip">
-        <h2>dameklip</h2>
+        <h2>Dameklip</h2>
         <p>660kr</p>
+        <a href="kontakt.html" class="hover-knap">Book</a>
     </div>
 
-    <div>
+    <div class="box">
         <img src="img/herreklip.webp" alt="herreklip">
         <h2>Herre klip</h2>
         <p>560kr</p>
+        <a href="kontakt.html" class="hover-knap">Book</a>
     </div>
 
-    <div>
+    <div class="box">
         <img src="img/reflekser.webp" alt="reflekser">
         <h2>Reflekser</h2>
         <p>Fra 1000kr</p>
+        <a href="kontakt.html" class="hover-knap">Book</a>
     </div>
 
     </div>
@@ -38,10 +67,43 @@
 
 
 </main>
-<footer></footer>
+<footer>
+
+    <div>
+        <p class="footeroverskrift">Åbningstider</p>
+        <p>
+            Mandag: 09-18 <br>
+            Tirsdag 09-18 <br>
+            Onsdag: 10-18 <br>
+            Torsdag: 12-18 <br>
+            Fredag: 09-18 <br>
+            Lørdag 10-14 <br>
+            Søndag: Lukket <br>
+
+        </p>
+    </div>
+    <div class="adresse"><a href="forside.html"><img src="img/forside/logo.png" alt="logo"></a>
+        <address>
+            Østerbrogade56D,<br>
+            k th. 2100<br>
+            København Ø<br>
+            Ring til os på:<a href="tel:+4535355511"> 35 35 55 11</a><br>
+        </address>
+    </div>
+    <div>
+        <p class="footeroverskrift">Følg os på</p>
+        <div class="iconer">
+            <a
+                href="https://www.instagram.com/normand_og_lundquist?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <img src="img/forside/instalogo.png" alt="instalogo"></a>
+            <a href="https://www.facebook.com/profile.php?id=100054473800453"><img src="img/forside/facebook.png"
+                    alt="facebooklogo"></a>
+        </div>
+    </div>
+</footer>
     
 
-
+<script src="java/menu.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
