@@ -37,6 +37,11 @@ main{
   background-color: #FFEDDF;
 }
 
+.grid_1-1-1 img:hover{
+   transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 
 @media (min-width: 1024px){
   .grid_1-1-1{
@@ -56,7 +61,34 @@ main{
   p {
   font-size: 1.5rem;
 }
+
+.hover-knap{
+  padding: 20px 30px;
+  font-size: 25px;
+
 }
+
+.produkter{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-left: 30px;
+ 
+}
+
+.tekst{
+  padding: 10px;
+  margin-top: 180px;
+}
+
+
+}
+
+.produkter img:hover{
+   transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
 
 /* Knappen */
 .hover-knap {
@@ -66,8 +98,8 @@ main{
   background-color: #A05435; 
   border: 3px solid #833f25;
   color: white;
-  border-radius: 17px;
-  font-size: 16px;
+  border-radius: 30px;
+  font-size: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-decoration: none;
@@ -79,3 +111,23 @@ main{
   background-color: #C59273; 
   transform: scale(1.1);
 }
+
+.info{
+  text-align: center;
+  padding: 10px;
+}
+
+.link{
+  text-align: center;
+  font-weight: 400;
+  color: black;
+  font-family: Spectral;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.produkter{
+  padding: 30px;
+}
+
+
