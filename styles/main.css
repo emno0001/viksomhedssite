@@ -7,6 +7,7 @@ img {
   align-self: stretch;
   padding: 0rem;
 }
+
 /***************** Menu **********************/
 header {
   background-color: blue;
@@ -156,7 +157,7 @@ footer {
 }
 footer p {
   padding: 5px;
-  font-family: lora;
+  font-family: Spectral;
   text-align: center;
 }
 .footeroverskrift {
@@ -195,7 +196,7 @@ footer a {
   }
   footer p {
     padding: 2px;
-    font-family: lora;
+    font-family: Spectral;
     text-align: center;
   }
   .footeroverskrift {
@@ -211,4 +212,21 @@ footer a {
   footer address {
     padding-top: 10px;
   }
+}
+/***************** main **********************/
+h1 {
+  font-family: lora;
+  font-weight: 700;
+}
+h2 {
+  font-family: lora;
+  font-weight: 500;
+}
+p {
+  font-family: Spectral;
+  font-weight: 400;
+}
+a {
+  font-family: Spectral;
+  font-weight: 500;
 }
