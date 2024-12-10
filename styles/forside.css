@@ -1,0 +1,13 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  align-self: stretch;
+  padding: 0rem;
+}
