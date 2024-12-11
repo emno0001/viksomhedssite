@@ -11,3 +11,96 @@ img {
   align-self: stretch;
   padding: 0rem;
 }
+/*************** LOTTIFILE *********************/
+.lottie {
+  width: 100%;
+  height: 100%;
+}
+
+/*************** adressemidte *********************/
+.adressemidte {
+  background-color: #3c2208;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/*************** omsektion *********************/
+.omsektion {
+  background-color: rgba(255, 237, 223, 1);
+  padding-inline: 15%;
+  padding-bottom: 45px;
+  padding-top: 35px;
+}
+.omsektion h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.omknapforside {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container h1 {
+  padding-bottom: 30px;
+}
+/* Knappen */
+.container {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.hover-knap {
+  padding: 10px 20px;
+  background-color: #a05435;
+  border: 3px solid #833f25;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+/* Hover-effekt */
+.hover-knap:hover {
+  background-color: #c59273;
+  transform: scale(1.1);
+}
+@media screen and (min-width: 800px) {
+  /*************** LOTTIFILE *********************/
+
+  /*************** adressemidte *********************/
+  .adressemidte {
+    background-color: #3c2208;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  /*************** omsektion *********************/
+  .omsektion {
+    background-color: rgba(255, 237, 223, 1);
+    padding-inline: 20%;
+    padding-bottom: 65px;
+    padding-top: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .omsektion h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .omknapforside {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .billedeforside {
+    order: -1;
+  }
+}
