@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  align-self: stretch;
+  padding: 0;
+  margin-top: 10px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-color: aqua;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+#grid h2 {
+  padding-top: 20px;
+}
+
+.person img {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#tekst {
+  padding: 20px 20px 20px 20px;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #3c2208;
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #tekst {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+  }
+}
