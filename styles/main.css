@@ -1,3 +1,9 @@
+/************* CSS Variable ****************/
+
+:root {
+  --background-color: #fceee1;
+}
+
 /*************** Reset *********************/
 
 img {
@@ -229,4 +235,8 @@ p {
 a {
   font-family: Spectral;
   font-weight: 500;
+}
+
+main {
+  background-color: var(--background-color);
 }
