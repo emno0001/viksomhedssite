@@ -25,10 +25,12 @@ body {
 
 .h1_contact {
   font-family: lora;
-  font-weight: 900;
-  font-size: 40px;
+  font-weight: 700;
+
+  font-size: 3rem;
+
   text-align: center;
-  margin-top: 30px;
+  padding: 20px;
 }
 
 a {
@@ -207,6 +209,10 @@ span {
     grid-template-columns: 1fr 1fr;
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .h1_contact {
+    font-size: 5rem;
   }
 
   .map {
